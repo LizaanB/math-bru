@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Math Bru</string>
+    <string name="title_activity_main">Math Bru</string>
+    <string name="package_name">com.mathbru.app</string>
+    <string name="custom_url_scheme">com.mathbru.app</string>
+</resources>
