@@ -10,7 +10,7 @@ interface ExamSelectorProps {
 }
 
 export default function ExamSelector({ onSelectExam, onBack }: ExamSelectorProps) {
-  const { t, language } = useLanguage()
+  const { t } = useLanguage()
   const [selectedGrade, setSelectedGrade] = useState<Grade>(4)
   const [examLanguage, setExamLanguage] = useState<'en' | 'af'>('en')
 
