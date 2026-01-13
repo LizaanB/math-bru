@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/math-bru/logo.png" />
+    <link rel="manifest" href="/math-bru/manifest.json" />
+    <link rel="apple-touch-icon" href="/math-bru/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Math Bru - Interactive math learning app for grades 4-7" />
+    <meta name="theme-color" content="#1E88E5" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Math Bru" />
+    <title>Math Bru - Learn Math Fun!</title>
+    <script type="module" crossorigin src="/math-bru/assets/index-Dov18H54.js"></script>
+    <link rel="stylesheet" crossorigin href="/math-bru/assets/index-l3_itT0_.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // Register service worker for PWA
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then(reg => console.log('Service Worker registered'))
+            .catch(err => console.log('Service Worker registration failed:', err));
+        });
+      }
+    </script>
+  </body>
+</html>
