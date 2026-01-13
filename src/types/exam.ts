@@ -48,8 +48,8 @@ export interface ExamSection {
   nameAf?: string
   instructions: string
   instructionsAf?: string
-  questions: DBEQuestion[]
-  totalMarks: number
+  questions?: DBEQuestion[]
+  totalMarks?: number
 }
 
 export interface ExamAttempt {
