@@ -46,7 +46,7 @@ export interface ExamPaper {
 export interface ExamSection {
   name: string
   nameAf?: string
-  instructions: string
+  instructions?: string
   instructionsAf?: string
   questions?: DBEQuestion[]
   totalMarks?: number
