@@ -219,7 +219,7 @@ export const grade4Term1: ExamPaper = {
 }
 
 // Flatten sections into questions array
-grade4Term1.questions = grade4Term1.sections?.flatMap(s => s.questions) || []
+grade4Term1.questions = grade4Term1.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 4 Term 2 Exam Paper
 export const grade4Term2: ExamPaper = {
@@ -309,7 +309,7 @@ export const grade4Term2: ExamPaper = {
   ],
   questions: []
 }
-grade4Term2.questions = grade4Term2.sections?.flatMap(s => s.questions) || []
+grade4Term2.questions = grade4Term2.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 4 Term 3 Exam Paper
 export const grade4Term3: ExamPaper = {
@@ -389,7 +389,7 @@ export const grade4Term3: ExamPaper = {
   ],
   questions: []
 }
-grade4Term3.questions = grade4Term3.sections?.flatMap(s => s.questions) || []
+grade4Term3.questions = grade4Term3.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 4 Term 4 Exam Paper
 export const grade4Term4: ExamPaper = {
@@ -469,7 +469,7 @@ export const grade4Term4: ExamPaper = {
   ],
   questions: []
 }
-grade4Term4.questions = grade4Term4.sections?.flatMap(s => s.questions) || []
+grade4Term4.questions = grade4Term4.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 5 Term 1 Exam Paper
 export const grade5Term1: ExamPaper = {
@@ -673,7 +673,7 @@ export const grade5Term1: ExamPaper = {
   questions: []
 }
 
-grade5Term1.questions = grade5Term1.sections?.flatMap(s => s.questions) || []
+grade5Term1.questions = grade5Term1.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 5 Term 2 Exam Paper
 export const grade5Term2: ExamPaper = {
@@ -747,7 +747,7 @@ export const grade5Term2: ExamPaper = {
   ],
   questions: []
 }
-grade5Term2.questions = grade5Term2.sections?.flatMap(s => s.questions) || []
+grade5Term2.questions = grade5Term2.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 5 Term 3 Exam Paper
 export const grade5Term3: ExamPaper = {
@@ -821,7 +821,7 @@ export const grade5Term3: ExamPaper = {
   ],
   questions: []
 }
-grade5Term3.questions = grade5Term3.sections?.flatMap(s => s.questions) || []
+grade5Term3.questions = grade5Term3.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 5 Term 4 Exam Paper
 export const grade5Term4: ExamPaper = {
@@ -895,7 +895,7 @@ export const grade5Term4: ExamPaper = {
   ],
   questions: []
 }
-grade5Term4.questions = grade5Term4.sections?.flatMap(s => s.questions) || []
+grade5Term4.questions = grade5Term4.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 6 Term 1 Exam Paper
 export const grade6Term1: ExamPaper = {
@@ -1099,7 +1099,7 @@ export const grade6Term1: ExamPaper = {
   questions: []
 }
 
-grade6Term1.questions = grade6Term1.sections?.flatMap(s => s.questions) || []
+grade6Term1.questions = grade6Term1.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 6 Term 2 Exam Paper
 export const grade6Term2: ExamPaper = {
@@ -1173,7 +1173,7 @@ export const grade6Term2: ExamPaper = {
   ],
   questions: []
 }
-grade6Term2.questions = grade6Term2.sections?.flatMap(s => s.questions) || []
+grade6Term2.questions = grade6Term2.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 6 Term 3 Exam Paper
 export const grade6Term3: ExamPaper = {
@@ -1247,7 +1247,7 @@ export const grade6Term3: ExamPaper = {
   ],
   questions: []
 }
-grade6Term3.questions = grade6Term3.sections?.flatMap(s => s.questions) || []
+grade6Term3.questions = grade6Term3.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 6 Term 4 Exam Paper
 export const grade6Term4: ExamPaper = {
@@ -1321,7 +1321,7 @@ export const grade6Term4: ExamPaper = {
   ],
   questions: []
 }
-grade6Term4.questions = grade6Term4.sections?.flatMap(s => s.questions) || []
+grade6Term4.questions = grade6Term4.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 7 Term 1 Exam Paper
 export const grade7Term1: ExamPaper = {
@@ -1557,7 +1557,7 @@ export const grade7Term1: ExamPaper = {
   questions: []
 }
 
-grade7Term1.questions = grade7Term1.sections?.flatMap(s => s.questions) || []
+grade7Term1.questions = grade7Term1.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 7 Term 2 Exam Paper
 export const grade7Term2: ExamPaper = {
@@ -1631,7 +1631,7 @@ export const grade7Term2: ExamPaper = {
   ],
   questions: []
 }
-grade7Term2.questions = grade7Term2.sections?.flatMap(s => s.questions) || []
+grade7Term2.questions = grade7Term2.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 7 Term 3 Exam Paper
 export const grade7Term3: ExamPaper = {
@@ -1705,7 +1705,7 @@ export const grade7Term3: ExamPaper = {
   ],
   questions: []
 }
-grade7Term3.questions = grade7Term3.sections?.flatMap(s => s.questions) || []
+grade7Term3.questions = grade7Term3.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 7 Term 4 Exam Paper
 export const grade7Term4: ExamPaper = {
@@ -1779,7 +1779,7 @@ export const grade7Term4: ExamPaper = {
   ],
   questions: []
 }
-grade7Term4.questions = grade7Term4.sections?.flatMap(s => s.questions) || []
+grade7Term4.questions = grade7Term4.sections?.flatMap(s => s.questions || []) || []
 
 // Grade 5 Sample Questions
 export const grade5Questions: DBEQuestion[] = [
